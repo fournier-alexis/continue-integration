@@ -1,0 +1,27 @@
+{
+  "name": "continue-integration",
+  "version": "1.0.0",
+  "description": "Formation CI / CD",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fournier-alexis/continue-integration.git"
+  },
+  "author": "Alexis Fournier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fournier-alexis/continue-integration/issues"
+  },
+  "homepage": "https://github.com/fournier-alexis/continue-integration#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "jest": "^27.0.5",
+    "ts-jest": "^27.0.3",
+    "typescript": "^4.3.4"
+  }
+}
